@@ -1,0 +1,505 @@
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/* Algum comentario */
+
+/* classes */
+.paragraph {
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+/* ids */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+/* ordem das regras */
+h2 {
+  border-bottom: 2px solid red;
+}
+
+.titulo {
+  border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+  border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color:rgb(166, 89, 104)
+}
+
+/* Hex */
+.hex {
+    color: #55a398;
+}
+.hex-2 {
+    color: #5c5a05
+}
+
+/* Aprofundando em hex */
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #c50;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255,0,0);
+}
+
+.mixed-rgb {
+    color: rgb(55,55,5);
+}
+
+/* RGBA */
+.rgba {
+    color: rgba(200, 55, 45, 0.5);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(103, 76%, 26%);
+}
+
+.hsl-2 {
+    color: hsl(205, 85%, 80%)
+}
+
+/* Background */
+.bg {
+    background-color: #000;
+    color : yellow
+}
+
+.bg-2 {
+    background-color: rgb(75, 0, 9);
+    color: #00eaff;
+}
+
+/* background opacity */
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.8
+}
+
+/* RGBA com opacidade */
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #000
+}
+
+/* BG image */
+.bg-image {
+    background-image: url("../img/203-thumb.png");
+    padding: 10px;
+    color: #fff
+}
+
+/* centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/203-thumb.png");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* largura e altura */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
+
+/* padding */
+.without-padding,
+.padding {
+    background-color: #111;
+    color: #fff
+}
+
+.padding {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* padding-individual */
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* shorthand padding */
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+    /* padding: 10px 20px 10px 20px; */
+}
+
+/* padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Border */
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #931;
+    padding: 25px;
+}
+
+/* Borda individual */
+.Border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+
+.Border-bottom {
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}
+
+/* Borda arredondada */
+.rounded-p {
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p-2 {
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* margem */
+.margin {
+    margin: 10px;
+    background-color: #444;
+}
+
+.margin-top {
+    margin-top: 50px;
+    background-color: #5c5a05;
+    padding: 10px;
+}
+
+.margin-shorthand {
+    background-color: #777;
+    margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #111;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+/* Desafio 3 */
+.Desafio-3 {
+    background-color: #222;
+    margin: 35px;
+    padding: 25px 40px;
+    border: 7px double red;
+    outline: 7px double blue;
+}
+
+.terceiro-desafio {
+    background-color: #222;
+    margin: 35px;
+    padding: 25px 40px;
+    border: 7px double red;
+    outline: 7px double blue;
+    border-radius: 14px;
+    width: 175px;
+    height: 300px;
+}
+
+/* Text align */
+.text-aligned {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* text decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: green;
+}
+
+/* text transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* letter spacing  */
+.spacing {
+    letter-spacing: 5px;
+}
+
+/* Fontes */
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-style: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* text style */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* font weight */
+.thin, 
+.bold, 
+.bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* font size */
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/* display */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+
+.invisible {
+    display: none;
+}
+
+/* static */
+.static {
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+.relative {
+    position: relative;
+    background-color: #222;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* absolute */
+.absolute {
+    position: absolute;
+    background-color: #952;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Absolute e relative */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixed */
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color: #852;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* sticky */
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #995;
+    border: 1px solid green;
+    position: sticky;
+    top: 10px;
+}
+
+/* z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: #245;
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #455;
+    z-index: 1;
+}
