@@ -74,3 +74,32 @@ a:hover {
     color: #333;
     font-weight: bold;
 }
+
+/* barra lateral */
+#siderbar {
+    flex: 1 1 0;
+}
+
+#search-bar,
+#categories,
+#tags {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+#search-bar h4, 
+#categories h4,
+#tags h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+#search-bar form {
+    display: flex;
+}
+
+#search-bar input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+}
